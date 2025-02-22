@@ -32,7 +32,7 @@ jobs:
             <servers>
               <server>
                 <id>github</id>
-                <username>${{ github.actor }}</username>
+                <username>${{ env.GITHUB_ACTOR }}</username>
                 <password>${{ secrets.GH_TOKEN }}</password>
               </server>
             </servers>
@@ -40,6 +40,6 @@ jobs:
           EOF
 
       - name: Publish package
-        run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
+        run: mvn deploy -X -s $GITHUB_WORKSPACE/settings.xml
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
