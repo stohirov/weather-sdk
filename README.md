@@ -3,6 +3,9 @@
 ## Overview
 Weather SDK for Java is a lightweight and efficient library for fetching real-time weather data from the OpenWeather API. It includes built-in caching to optimize performance and reduce redundant API calls.
 
+### Python Project 
+(Python SDK)[https://github.com/stohirov/weather-sdk-python]
+
 ## Prerequisites
 Ensure that you have **Java 21** installed on your system before using the SDK.
 
