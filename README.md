@@ -47,7 +47,7 @@ If you're using **Maven**, add the following dependency to your `pom.xml`:
 <dependency>
     <groupId>com.weather.stohirov</groupId>
     <artifactId>weather-sdk</artifactId>
-    <version>0.0.7</version>
+    <version>0.0.8</version>
 </dependency>
 ```
 
@@ -55,7 +55,7 @@ If you're using **Gradle**, add this to your `build.gradle`:
 
 ```gradle
 dependencies {
-    implementation 'com.weather.stohirov:weather-sdk:0.0.7'
+    implementation 'com.weather.stohirov:weather-sdk:0.0.8'
 }
 ```
 
