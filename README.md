@@ -47,7 +47,7 @@ If you're using **Maven**, add the following dependency to your `pom.xml`:
 <dependency>
     <groupId>com.weather.stohirov</groupId>
     <artifactId>weather-sdk</artifactId>
-    <version>0.0.8</version>
+    <version>0.0.9</version>
 </dependency>
 ```
 
@@ -55,37 +55,11 @@ If you're using **Gradle**, add this to your `build.gradle`:
 
 ```gradle
 dependencies {
-    implementation 'com.weather.stohirov:weather-sdk:0.0.8'
+    implementation 'com.weather.stohirov:weather-sdk:0.0.9'
 }
 ```
 
 > **Note:** Ensure that the package is published to a public Maven repository (like Maven Central or JitPack). If using JitPack, you may need to add JitPack to your repositories.
-
-## Configuring Authentication for Maven
-If your repository requires authentication (e.g., GitHub Packages), configure your `~/.m2/settings.xml` file:
-
-```xml
-<settings>
-    <servers>
-        <server>
-            <id>github</id>
-            <username>stohirov</username>
-            <password>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</password> // with read:package access
-        </server>
-    </servers>
-</settings>
-```
-
-Then, reference this server in your `pom.xml`:
-
-```xml
-    <repositories>
-        <repository>
-            <id>github</id>
-            <url>https://maven.pkg.github.com/stohirov/weather-sdk</url>
-        </repository>
-    </repositories>
-```
 
 ## Usage
 Test it inside the `Main` class:
