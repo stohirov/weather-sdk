@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2d66210-548f-412e-a205-169c1e0ee49b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/weather/stohirov/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/weather/stohirov/WeatherCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weather/stohirov/WeatherCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/weather/stohirov/WeatherException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weather/stohirov/WeatherException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/weather/stohirov/WeatherFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/weather/stohirov/WeatherFetcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
