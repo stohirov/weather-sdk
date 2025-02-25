@@ -5,7 +5,7 @@ import org.json.JSONObject;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-class WeatherCache {
+public class WeatherCache {
     private final Map<String, CachedWeather> cache;
     private final int maxSize;
     private final long expirationTime;

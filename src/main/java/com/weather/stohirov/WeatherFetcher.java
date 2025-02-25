@@ -8,7 +8,7 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.Scanner;
 
-class WeatherFetcher {
+public class WeatherFetcher {
     private static final String API_URL = "https://api.openweathermap.org/data/2.5/weather?q=%s&appid=%s&units=metric";
     private final String apiKey;
 
