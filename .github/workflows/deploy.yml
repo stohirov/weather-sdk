@@ -1,8 +1,9 @@
-name: Maven Package
+name: Weather API SDK
 
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+      - main
 
 jobs:
   build:
