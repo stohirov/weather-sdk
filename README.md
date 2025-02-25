@@ -3,7 +3,7 @@
 ## Overview
 Weather SDK for Java is a lightweight and efficient library for fetching real-time weather data from the OpenWeather API. It includes built-in caching to optimize performance and reduce redundant API calls.
 
-### Python Project 
+### Python Project
 [Python SDK](https://github.com/stohirov/weather-sdk-python)
 
 ## Prerequisites
@@ -39,10 +39,36 @@ Ensure that you have **Java 21** installed on your system before using the SDK.
    java -version
    ```
 
+## Installation
+
+If you're using **Maven**, add the following dependency to your `pom.xml`:
+
+```xml
+<dependency>
+    <groupId>com.weather.stohirov</groupId>
+    <artifactId>weather-sdk</artifactId>
+    <version>0.0.5</version>
+</dependency>
+```
+
+If you're using **Gradle**, add this to your `build.gradle`:
+
+```gradle
+dependencies {
+    implementation 'com.weather.stohirov:weather-sdk:1.0.0'
+}
+```
+
+> **Note:** Ensure that the package is published to a public Maven repository (like Maven Central or JitPack). If using JitPack, you may need to add JitPack to your repositories.
+
 ## Usage
 Test it inside the `Main` class:
 
 ```java
+import com.weather.stohirov.WeatherSDK;
+import com.weather.stohirov.WeatherException;
+import org.json.JSONObject;
+
 public class Main {
     public static void main(String[] args) {
         WeatherSDK weatherSDK = new WeatherSDK("YOUR_API_KEY");
@@ -60,7 +86,7 @@ public class Main {
 ✅ Fetches real-time weather data from OpenWeather API  
 ✅ Caches up to 10 cities for 10 minutes to optimize API usage  
 ✅ Handles API errors gracefully with custom exceptions  
-✅ Easy integration with Java applications
+✅ Easy integration with Java applications  
 
 For more details, refer to the [OpenWeather API documentation](https://openweathermap.org/api).
 
